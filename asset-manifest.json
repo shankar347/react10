@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react10/static/css/main.1bbab2c2.css",
+    "main.js": "/react10/static/js/main.a1408042.js",
+    "static/js/787.965dd492.chunk.js": "/react10/static/js/787.965dd492.chunk.js",
+    "static/media/snow.png": "/react10/static/media/snow.9957456da0445490c376.png",
+    "static/media/humidity.png": "/react10/static/media/humidity.40bdb8e36951f8e96a6f.png",
+    "static/media/storm.png": "/react10/static/media/storm.34ba1304792a31b7d163.png",
+    "static/media/reloading.png": "/react10/static/media/reloading.b299c4d5dc0f32da3c62.png",
+    "static/media/sun.png": "/react10/static/media/sun.b972dcf61eb381f03551.png",
+    "static/media/fog.png": "/react10/static/media/fog.4a0f300b48ab433ca304.png",
+    "static/media/clear-sky.png": "/react10/static/media/clear-sky.0756fd770f55ea454fd7.png",
+    "static/media/twitter.png": "/react10/static/media/twitter.e58e4997ef85cbd7054c.png",
+    "static/media/cloudy.png": "/react10/static/media/cloudy.f009e441a604361a2783.png",
+    "static/media/raining.png": "/react10/static/media/raining.2af3473347d2e86e7244.png",
+    "static/media/wind.png": "/react10/static/media/wind.51b8a36c8909b77f0ead.png",
+    "static/media/search.png": "/react10/static/media/search.a27091ef0c45faf8a66e.png",
+    "index.html": "/react10/index.html",
+    "main.1bbab2c2.css.map": "/react10/static/css/main.1bbab2c2.css.map",
+    "main.a1408042.js.map": "/react10/static/js/main.a1408042.js.map",
+    "787.965dd492.chunk.js.map": "/react10/static/js/787.965dd492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bbab2c2.css",
+    "static/js/main.a1408042.js"
+  ]
+}

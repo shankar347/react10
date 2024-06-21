@@ -27,8 +27,8 @@ export default function Wheatherapp()
     let data1=await data.json();
     let temp=document.getElementsByClassName("whethercel");
     let location=document.getElementsByClassName("location");
-    let wind=document.getElementsByClassName("huminitydata");
-    let huminity=document.getElementsByClassName("windspeeddata");
+    let wind=document.getElementsByClassName("huminitysrc");
+    let huminity=document.getElementsByClassName("windspeedsrc");
     
     temp[0].innerHTML=data1.main.temp+"c";
     location[0].innerHTML=data1.name;
@@ -83,7 +83,8 @@ return(
         <input className='inputvalue' type="text" placeholder='Search here'/>
         </div>
         <div onClick={()=>search()} className="searchimg">
-        <img src={search1} alt="notvalid" />
+        <img src={search1} alt="notvalid"  
+        />
         </div>
         </div>
         <div className="whetherdata">
@@ -91,7 +92,7 @@ return(
             <img src={icon} alt="" />
             </div>
            <div className="whethercel">
-            29 c
+            29.15c
            </div>
         <div className="location">
             London
@@ -103,7 +104,7 @@ return(
                 <img src={humidity} alt="" />
                     </div>
                     <div className="huminitydata" >
-                    <p >64%</p>
+                    <p className='huminitysrc'>64%</p>
                  <span>Humidity</span>
                     </div>
             </div>
@@ -112,8 +113,7 @@ return(
                <img src={wind} alt="" />
                 </div > 
                  <div className="windspeeddata" >
-                    <p >18 km/h</p>
-                    <span>wind speed</span>
+                    <p className='windspeedsrc'>61 km/h</p>
                  </div>
        
         </div>
